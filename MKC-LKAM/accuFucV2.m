@@ -26,9 +26,9 @@ nmi(1) = mean(nmii); nmi(2) = std(nmii);
 ACC(1) =mean(ACCi);ACC(2) =std(ACCi);
 Purity(1) =mean(Purityi);Purity(2)=std(Purityi);
 %输出聚类结果
-fprintf('ACC: %0.4f(%0.4f)\n', ACC(1), std(ACCi));
-fprintf('nmi: %0.4f(%0.4f)\n', nmi(1), std(nmii));
-fprintf('Purity: %0.4f(%0.4f)\n', Purity(1), std(Purityi));
+% fprintf('ACC: %0.4f(%0.4f)\n', ACC(1), std(ACCi));
+% fprintf('nmi: %0.4f(%0.4f)\n', nmi(1), std(nmii));
+% fprintf('Purity: %0.4f(%0.4f)\n', Purity(1), std(Purityi));
 res.Acc_avg = ACC(1);
 res.Acc_std = ACC(2);
 res.NMI_avg = nmi(1);

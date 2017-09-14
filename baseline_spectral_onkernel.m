@@ -66,11 +66,11 @@ function [V E F P R nmi avgent AR C ACC Purity] = baseline_spectral_onkernel(K,n
 %     fprintf('F: %0.4f(%0.4f)\n', F(1), std(Fi));
 %     fprintf('P: %0.4f(%0.4f)\n', P(1), std(Pi));    
 %     fprintf('R: %0.4f(%0.4f)\n', R(1), std(Ri));
-    fprintf('ACC: %0.4f(%0.4f)\n', ACC(1), std(ACCi));
-    fprintf('nmi: %0.4f(%0.4f)\n', nmi(1), std(nmii));
+%     fprintf('ACC: %0.4f(%0.4f)\n', ACC(1), std(ACCi));
+%     fprintf('nmi: %0.4f(%0.4f)\n', nmi(1), std(nmii));
 %     fprintf('avgent: %0.4f(%0.4f)\n', avgent(1), std(avgenti));
 %     fprintf('AR: %0.4f(%0.4f)\n', AR(1), std(ARi));
 
-    fprintf('Purity: %0.4f(%0.4f)\n', Purity(1), std(Purityi));
+%     fprintf('Purity: %0.4f(%0.4f)\n', Purity(1), std(Purityi));
     
     
